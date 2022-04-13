@@ -49,6 +49,9 @@ let rain = true;
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
+if(temperature >= 80 , rain === true){
+    console.log("wear a t-shirt and take an umbrella")
+}
 
 //CODE HERE
 
@@ -57,6 +60,9 @@ let rain = true;
 /*
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
+for(let i = 0; i < 10; i++){
+    console.log("hello")
+}
 
 //CODE HERE
 
@@ -65,6 +71,9 @@ let rain = true;
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
+for(let i=1; i < 11; i++){
+    console.log(i)
+}
 
 //CODE HERE
 
@@ -73,7 +82,9 @@ let rain = true;
 /*
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
-
+for(let i=10; i>=0; i--){
+  console.log(i)
+}
 //CODE HERE
 
 
@@ -87,6 +98,10 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
+while(score<passingScore){
+  console.log("your score is ot high enough")
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
