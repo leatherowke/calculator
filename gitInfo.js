@@ -35,7 +35,7 @@ let gitHubDefinition = 'git hub is an website that connects easily with git to b
 */
 
 //CODE HERE
-
+let gitCloneDefinition = 'a command used in git to make a copy of an already existing repository'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -52,7 +52,8 @@ let gitHubDefinition = 'git hub is an website that connects easily with git to b
     Create another variable called 'gitAddCode'.  
     It should be a string containing the code to add all files.
 */
-
+let gitAddDefinition = 'a command used to save the current state of a project'
+let gitAddCode = 'git add ..'
 //CODE HERE
 
 //////////////////PROBLEM 7////////////////////
@@ -65,8 +66,8 @@ let gitHubDefinition = 'git hub is an website that connects easily with git to b
 */
 
 //CODE HERE
-
-
+let gitCommitDefinition = 'a command to take a snapshot of the project'
+let gitCommitCode = ' git commit -m""'
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -74,3 +75,4 @@ let gitHubDefinition = 'git hub is an website that connects easily with git to b
 */
 
 //CODE HERE
+let gitPushDefinition = 'a command used to add your project to gitHub'
